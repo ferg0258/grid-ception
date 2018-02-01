@@ -14,9 +14,8 @@ html {
   text-size-adjust: 100%;
 }
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -29,4 +28,5 @@ figure {
 
 .img-flex {
   width: 100%;
+  display: inline;
 }
